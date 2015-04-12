@@ -1,0 +1,5 @@
+{{#each model as |ticket|}}
+  {{helpdesk-ticket ticket=ticket}}
+{{/each}}
+
+{{new-ticket-form action="addTicket"}}
