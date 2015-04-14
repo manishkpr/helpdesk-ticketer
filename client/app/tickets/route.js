@@ -9,9 +9,7 @@ export default Ember.Route.extend({
 
   actions: {
     addTicket(ticket) {
-      this.get('helpdesk').save(ticket).then((savedTicket) => {
-        this.modelFor('tickets').pushObject(savedTicket);
-      });
+      this.get('helpdesk').save(ticket);
     }
   }
 

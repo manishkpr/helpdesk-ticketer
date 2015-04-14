@@ -9,6 +9,11 @@ export default Ember.Service.extend({
 
   find() {
     return Ember.$.getJSON(this.apiUrl);
+  },
+
+  // Registers the socket
+  setup: function () {
+    io.socket.get(this.apiUrl);
   }
 
 });
