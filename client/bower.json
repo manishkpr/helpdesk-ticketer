@@ -14,6 +14,6 @@
     "qunit": "~1.17.1"
   },
   "devDependencies": {
-    "bootswatch": "https://github.com/thomaspark/bootswatch.git#~3.3.4+1"
+    "bootswatch": "https://github.com/thomaspark/bootswatch.git"
   }
 }
